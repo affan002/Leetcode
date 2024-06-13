@@ -19,10 +19,10 @@ class Solution:
                 list2 = list2.next
             tail = tail.next 
 
-        if list1 == None and list2:
-            tail.next = list2
-        elif list2 == None and list1:
+        if list1:
             tail.next = list1
+        elif list2:
+            tail.next = list2
 
         return dummy.next
             
