@@ -12,10 +12,10 @@ class Solution:
 
         while list1 and list2:
             if list1.val < list2.val:
-                tail.next = list1      #ListNode(list1.val)
+                tail.next = ListNode(list1.val)
                 list1 = list1.next
             else:
-                tail.next =  list2   # ListNode(list2.val)
+                tail.next = ListNode(list2.val)
                 list2 = list2.next
             tail = tail.next 
 
