@@ -12,8 +12,8 @@ class MyStack:
     def pop(self) -> int:
         self.length -= 1
         for i in range(self.length):
-            temp = self.queue.pop(0)
-            self.queue.append(temp)
+            self.queue.append(self.queue.pop(0))
+        
 
         return self.queue.pop(0)  
 
