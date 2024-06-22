@@ -9,9 +9,12 @@ class Solution:
             digit = int(math.fmod(x,10))
             x=int(x/10)
             
+            if out > MAX//10 or (out == MAX//10 and digit > MAX%10):
+                return 0
+            if out < MIN//10 or (out == MIN//10 and digit < MIN%10):
+                return 0
+            
             out = out*10 + digit
             
-        if out > MAX or out < MIN:
-                return 0
 
         return out
