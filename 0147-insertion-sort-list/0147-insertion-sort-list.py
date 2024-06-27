@@ -11,14 +11,14 @@ class Solution:
         while cur != None:
             if cur.val < prev.val:
                 prev.next = cur.next
-                prev2=head
-                cur2=head.next
-                while cur2.val < cur.val:
-                    prev2 = cur2
-                    cur2 = cur2.next
+                now_prev=head
+                now_cur=head.next
+                while now_cur.val < cur.val:
+                    now_prev = now_cur
+                    now_cur = now_cur.next
 
-                cur.next = cur2
-                prev2.next = cur
+                cur.next = now_cur
+                now_prev.next = cur
 
             prev = cur
             cur=cur.next
