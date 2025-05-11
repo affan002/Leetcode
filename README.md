@@ -9,8 +9,13 @@ trying to solve one problem everyday
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/affan002/Leetcode/tree/master/0001-two-sum) |
+| [2058-concatenation-of-array](https://github.com/affan002/Leetcode/tree/master/2058-concatenation-of-array) |
 ## Hash Table
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/affan002/Leetcode/tree/master/0001-two-sum) |
+## Simulation
+|  |
+| ------- |
+| [2058-concatenation-of-array](https://github.com/affan002/Leetcode/tree/master/2058-concatenation-of-array) |
 <!---LeetCode Topics End-->
