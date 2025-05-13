@@ -29,5 +29,10 @@ trying to solve one problem everyday
 ## String
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/affan002/Leetcode/tree/master/0014-longest-common-prefix) |
 | [0242-valid-anagram](https://github.com/affan002/Leetcode/tree/master/0242-valid-anagram) |
+## Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/affan002/Leetcode/tree/master/0014-longest-common-prefix) |
 <!---LeetCode Topics End-->
