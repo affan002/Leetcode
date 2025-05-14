@@ -9,6 +9,7 @@ trying to solve one problem everyday
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/affan002/Leetcode/tree/master/0001-two-sum) |
+| [0027-remove-element](https://github.com/affan002/Leetcode/tree/master/0027-remove-element) |
 | [0049-group-anagrams](https://github.com/affan002/Leetcode/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/affan002/Leetcode/tree/master/0217-contains-duplicate) |
 | [2058-concatenation-of-array](https://github.com/affan002/Leetcode/tree/master/2058-concatenation-of-array) |
@@ -39,4 +40,8 @@ trying to solve one problem everyday
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/affan002/Leetcode/tree/master/0014-longest-common-prefix) |
+## Two Pointers
+|  |
+| ------- |
+| [0027-remove-element](https://github.com/affan002/Leetcode/tree/master/0027-remove-element) |
 <!---LeetCode Topics End-->
