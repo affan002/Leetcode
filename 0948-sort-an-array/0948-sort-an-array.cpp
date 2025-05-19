@@ -6,45 +6,38 @@ public:
     }
 
 private:
-    void mergeSort(int l, int r, vector<int>& array) {
-        // base case 
-        if (l>=r) return;
+    void mergeSort(int left, int right, vector<int>& array) {
+        //base case
+        if (left>=right) return;
 
-        // calculate middle
-        int m = (l+r)/2;
-        // recursive calls
-        mergeSort(l, m, array);
-        mergeSort(m+1, r, array);
-        // merge
-        merge(l, m, r, array);
+        // calculate mid
+        int mid = (left + right) / 2;
+        //recursive calls 
+        mergeSort(left, mid, array);
+        mergeSort(mid+1, right, array);
+        //merge
+        merge(left, right, mid, array);
     }
 
-    void merge(int l, int m, int r, vector<int>& arr){
-        int i=l; 
-        int j =m+1;
-        vector<int> temp;
-        while (i<=m && j<=r) {
-            if (arr[i]<arr[j]) { 
-                temp.push_back(arr[i]);
+    void merge(int left, int right, int mid, vector<int>& array) {
+        vector<int> temp; // temporary array
+        int i=left, j=mid+1;
+
+        while (i<= mid && j<= right) {
+            if(array[i]<array[j]) {
+                temp.push_back(array[i]);
                 i++;
-            }
-            else {
-                temp.push_back(arr[j]);
+            } else {
+                temp.push_back(array[j]);
                 j++;
             }
         }
 
-        while (i<=m) {
-            temp.push_back(arr[i]);
-            i++;
-        }
-        while (j<=r) {
-            temp.push_back(arr[j]);
-            j++;
-        }
+        while (i<=mid) temp.push_back(array[i++]);
+        while (j<=right) temp.push_back(array[j++]);
 
-        for (int i=l; i<=r; i++) {
-            arr[i] = temp[i-l];
+        for (int k=left; k<=right; k++) {
+            array[k] = temp[k-left];
         }
     }
 };
