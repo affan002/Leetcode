@@ -15,6 +15,7 @@ trying to solve one problem everyday
 | [0169-majority-element](https://github.com/affan002/Leetcode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/affan002/Leetcode/tree/master/0217-contains-duplicate) |
 | [0303-range-sum-query-immutable](https://github.com/affan002/Leetcode/tree/master/0303-range-sum-query-immutable) |
+| [0304-range-sum-query-2d-immutable](https://github.com/affan002/Leetcode/tree/master/0304-range-sum-query-2d-immutable) |
 | [0347-top-k-frequent-elements](https://github.com/affan002/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0816-design-hashset](https://github.com/affan002/Leetcode/tree/master/0816-design-hashset) |
 | [0948-sort-an-array](https://github.com/affan002/Leetcode/tree/master/0948-sort-an-array) |
@@ -77,6 +78,7 @@ trying to solve one problem everyday
 |  |
 | ------- |
 | [0303-range-sum-query-immutable](https://github.com/affan002/Leetcode/tree/master/0303-range-sum-query-immutable) |
+| [0304-range-sum-query-2d-immutable](https://github.com/affan002/Leetcode/tree/master/0304-range-sum-query-2d-immutable) |
 | [0816-design-hashset](https://github.com/affan002/Leetcode/tree/master/0816-design-hashset) |
 ## Hash Function
 |  |
@@ -112,4 +114,9 @@ trying to solve one problem everyday
 |  |
 | ------- |
 | [0303-range-sum-query-immutable](https://github.com/affan002/Leetcode/tree/master/0303-range-sum-query-immutable) |
+| [0304-range-sum-query-2d-immutable](https://github.com/affan002/Leetcode/tree/master/0304-range-sum-query-2d-immutable) |
+## Matrix
+|  |
+| ------- |
+| [0304-range-sum-query-2d-immutable](https://github.com/affan002/Leetcode/tree/master/0304-range-sum-query-2d-immutable) |
 <!---LeetCode Topics End-->
