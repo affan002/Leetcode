@@ -14,6 +14,7 @@ trying to solve one problem everyday
 | [0075-sort-colors](https://github.com/affan002/Leetcode/tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/affan002/Leetcode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/affan002/Leetcode/tree/master/0217-contains-duplicate) |
+| [0238-product-of-array-except-self](https://github.com/affan002/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [0303-range-sum-query-immutable](https://github.com/affan002/Leetcode/tree/master/0303-range-sum-query-immutable) |
 | [0304-range-sum-query-2d-immutable](https://github.com/affan002/Leetcode/tree/master/0304-range-sum-query-2d-immutable) |
 | [0347-top-k-frequent-elements](https://github.com/affan002/Leetcode/tree/master/0347-top-k-frequent-elements) |
@@ -113,6 +114,7 @@ trying to solve one problem everyday
 ## Prefix Sum
 |  |
 | ------- |
+| [0238-product-of-array-except-self](https://github.com/affan002/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [0303-range-sum-query-immutable](https://github.com/affan002/Leetcode/tree/master/0303-range-sum-query-immutable) |
 | [0304-range-sum-query-2d-immutable](https://github.com/affan002/Leetcode/tree/master/0304-range-sum-query-2d-immutable) |
 ## Matrix
