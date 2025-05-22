@@ -3,25 +3,25 @@ public:
     
 
     bool isValidSudoku(vector<vector<char>>& board) {
+        
         unordered_map<int, unordered_set<char>> rowMap, colMap;
         map<pair<int,int>, unordered_set<char>> gridMap;
-        for (int i=0; i<9; i++) {
-            for (int j=0; j<9; j++){
 
-                if (board[i][j] == '.') continue;
+        for (int r=0; r<9; r++) {
+            for(int c=0; c<9; c++) {
+                if (board[r][c] == '.') continue;
 
-                pair<int,int> currPair = {i/3,j/3};
+                pair<int,int> currPair = {r/3,c/3};
 
-                if ((rowMap[i].count(board[i][j])) 
-                || (colMap[j].count(board[i][j])) 
-                || (gridMap[currPair].count(board[i][j]))) return false;
+                if (rowMap[r].count(board[r][c]) || 
+                colMap[c].count(board[r][c]) ||
+                gridMap[currPair].count(board[r][c])) return false;
 
-                rowMap[i].insert(board[i][j]);
-                colMap[j].insert(board[i][j]);
-                gridMap[currPair].insert(board[i][j]);
 
+                rowMap[r].insert(board[r][c]);
+                colMap[c].insert(board[r][c]);
+                gridMap[currPair].insert(board[r][c]);
             }
-        
         }
         return true;
     }
