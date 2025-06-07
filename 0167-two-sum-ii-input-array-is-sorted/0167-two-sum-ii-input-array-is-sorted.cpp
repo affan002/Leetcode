@@ -8,8 +8,7 @@ public:
         while (true) {
             int currSum = num[l] + num[r];
             if (currSum == target) {
-                vector<int> output = {l+1, r+1};
-                return output;
+                return vector<int>{l+1, r+1};
             } else if (currSum<target) {
                 l++;
             } else {
