@@ -54,6 +54,7 @@ trying to solve one problem everyday
 | ------- |
 | [0014-longest-common-prefix](https://github.com/affan002/Leetcode/tree/master/0014-longest-common-prefix) |
 | [0049-group-anagrams](https://github.com/affan002/Leetcode/tree/master/0049-group-anagrams) |
+| [0125-valid-palindrome](https://github.com/affan002/Leetcode/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/affan002/Leetcode/tree/master/0242-valid-anagram) |
 ## Trie
 |  |
@@ -64,6 +65,7 @@ trying to solve one problem everyday
 | ------- |
 | [0027-remove-element](https://github.com/affan002/Leetcode/tree/master/0027-remove-element) |
 | [0075-sort-colors](https://github.com/affan002/Leetcode/tree/master/0075-sort-colors) |
+| [0125-valid-palindrome](https://github.com/affan002/Leetcode/tree/master/0125-valid-palindrome) |
 ## Divide and Conquer
 |  |
 | ------- |
