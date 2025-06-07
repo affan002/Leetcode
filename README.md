@@ -14,6 +14,7 @@ trying to solve one problem everyday
 | [0049-group-anagrams](https://github.com/affan002/Leetcode/tree/master/0049-group-anagrams) |
 | [0075-sort-colors](https://github.com/affan002/Leetcode/tree/master/0075-sort-colors) |
 | [0128-longest-consecutive-sequence](https://github.com/affan002/Leetcode/tree/master/0128-longest-consecutive-sequence) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/affan002/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0169-majority-element](https://github.com/affan002/Leetcode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/affan002/Leetcode/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/affan002/Leetcode/tree/master/0238-product-of-array-except-self) |
@@ -66,6 +67,7 @@ trying to solve one problem everyday
 | [0027-remove-element](https://github.com/affan002/Leetcode/tree/master/0027-remove-element) |
 | [0075-sort-colors](https://github.com/affan002/Leetcode/tree/master/0075-sort-colors) |
 | [0125-valid-palindrome](https://github.com/affan002/Leetcode/tree/master/0125-valid-palindrome) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/affan002/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -132,4 +134,8 @@ trying to solve one problem everyday
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/affan002/Leetcode/tree/master/0128-longest-consecutive-sequence) |
+## Binary Search
+|  |
+| ------- |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/affan002/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 <!---LeetCode Topics End-->
