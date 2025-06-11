@@ -13,6 +13,7 @@ trying to solve one problem everyday
 | [0036-valid-sudoku](https://github.com/affan002/Leetcode/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/affan002/Leetcode/tree/master/0049-group-anagrams) |
 | [0075-sort-colors](https://github.com/affan002/Leetcode/tree/master/0075-sort-colors) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/affan002/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/affan002/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/affan002/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0169-majority-element](https://github.com/affan002/Leetcode/tree/master/0169-majority-element) |
@@ -138,4 +139,8 @@ trying to solve one problem everyday
 |  |
 | ------- |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/affan002/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/affan002/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 <!---LeetCode Topics End-->
