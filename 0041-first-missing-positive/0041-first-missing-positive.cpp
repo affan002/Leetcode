@@ -6,11 +6,11 @@ public:
             hashSet[num] = 1;
         }
         
-        for (int i=1; i<=nums.size()+1; i++) {
+        for (int i=1; i<=nums.size(); i++) {
             if (hashSet[i]<1) {
                 return i;
             }
         }
-    return 1;
+    return nums.size()+1;
     }
 };
