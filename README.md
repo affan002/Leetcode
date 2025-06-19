@@ -64,6 +64,7 @@ trying to solve one problem everyday
 | [0125-valid-palindrome](https://github.com/affan002/Leetcode/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/affan002/Leetcode/tree/master/0242-valid-anagram) |
 | [0680-valid-palindrome-ii](https://github.com/affan002/Leetcode/tree/master/0680-valid-palindrome-ii) |
+| [1894-merge-strings-alternately](https://github.com/affan002/Leetcode/tree/master/1894-merge-strings-alternately) |
 ## Trie
 |  |
 | ------- |
@@ -76,6 +77,7 @@ trying to solve one problem everyday
 | [0125-valid-palindrome](https://github.com/affan002/Leetcode/tree/master/0125-valid-palindrome) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/affan002/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0680-valid-palindrome-ii](https://github.com/affan002/Leetcode/tree/master/0680-valid-palindrome-ii) |
+| [1894-merge-strings-alternately](https://github.com/affan002/Leetcode/tree/master/1894-merge-strings-alternately) |
 ## Divide and Conquer
 |  |
 | ------- |
