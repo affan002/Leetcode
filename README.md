@@ -9,6 +9,7 @@ trying to solve one problem everyday
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/affan002/Leetcode/tree/master/0001-two-sum) |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/affan002/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/affan002/Leetcode/tree/master/0027-remove-element) |
 | [0036-valid-sudoku](https://github.com/affan002/Leetcode/tree/master/0036-valid-sudoku) |
 | [0041-first-missing-positive](https://github.com/affan002/Leetcode/tree/master/0041-first-missing-positive) |
@@ -72,6 +73,7 @@ trying to solve one problem everyday
 ## Two Pointers
 |  |
 | ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/affan002/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/affan002/Leetcode/tree/master/0027-remove-element) |
 | [0075-sort-colors](https://github.com/affan002/Leetcode/tree/master/0075-sort-colors) |
 | [0125-valid-palindrome](https://github.com/affan002/Leetcode/tree/master/0125-valid-palindrome) |
