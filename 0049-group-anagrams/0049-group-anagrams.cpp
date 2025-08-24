@@ -1,23 +1,27 @@
 class Solution {
 public:
     vector<vector<string>> groupAnagrams(vector<string>& strs) {
+        vector<vector<string>> output;
+        unordered_map<string, int> mapIndex;
         int index = 0;
-        vector<vector<string>> output_arr;
-        unordered_map<string,int> map; 
-        for (int i=0; i<strs.size(); i++) {
-            string cur_str = strs[i];
-            sort(cur_str.begin(), cur_str.end());
-            if (map.find(cur_str) != map.end()) {
-                output_arr[map[cur_str]].push_back(strs[i]);
-            } else {
-                vector<string> empty_arr;
-                output_arr.push_back(empty_arr);
-                output_arr[index].push_back(strs[i]);
-                map[cur_str] = index;
+        // iterate through strs
+        for (string& str : strs) {
+            string org_str = str;
+            std::sort(str.begin(), str.end()); //sorting the string
+
+            // see if sorted string exists in mapIndex
+            if (mapIndex.find(str) != mapIndex.end()) {
+                output[mapIndex[str]].push_back(org_str);
+            } else {//if sorted string isn't in mapIndex
+                vector<string> newVector = {org_str};
+                mapIndex[str] = index;
+                output.push_back(newVector);
                 index++;
             }
-        }
-        return output_arr;
+            
 
+        }
+
+        return output;
     }
 };
