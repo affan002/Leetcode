@@ -3,21 +3,25 @@ public:
     
 
     bool isValidSudoku(vector<vector<char>>& board) {
-        
-        unordered_map<int, unordered_set<int>> rowMap, colMap;
-        map<pair<int,int>, unordered_set<int>> gridMap;
+        unordered_map<int,vector<char>> rowMap;
+        unordered_map<int,vector<char>> colMap;
+        map<pair<int,int>, vector<char>> gridMap;
 
-        for (int row= 0; row<9; row++) {
-            for (int col=0; col<9; col++) {
-                pair<int,int> currCell = {row/3, col/3};
-                int currElement = board[row][col];
-                if (currElement == '.') continue;
-                else if (rowMap[row].count(currElement)==1 || colMap[col].count(currElement)==1 || gridMap[currCell].count(currElement)==1) {
-                    return false;
-                }
-                rowMap[row].insert(currElement);
-                colMap[col].insert(currElement);
-                gridMap[currCell].insert(currElement);
+        for (int i=0; i<9; i++) {
+            for (int j=0; j<9; j++) {
+
+                // check if the element exists in rowMap
+                if (count(rowMap[i].begin(), rowMap[i].end(), board[i][j]) > 0) return false;
+                else if (board[i][j] != '.') rowMap[i].push_back(board[i][j]);
+
+                // check if the element exists in colMap
+                if (count(colMap[j].begin(), colMap[j].end(), board[i][j]) > 0) return false;
+                else if (board[i][j]!='.') colMap[j].push_back(board[i][j]);
+
+
+                // check for the gridMap
+                if (count(gridMap[{i/3, j/3}].begin(), gridMap[{i/3, j/3}].end(), board[i][j]) > 0) return false;
+                else if (board[i][j] != '.') gridMap[{i/3, j/3}].push_back(board[i][j]);
             }
         }
 
