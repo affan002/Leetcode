@@ -9,7 +9,7 @@ public:
                 return {l+1, r+1};
             else if (curr_sum>target)
                 r--;
-            else if (curr_sum<target)
+            else
                 l++;
         }
         return {};
