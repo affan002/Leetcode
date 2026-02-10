@@ -1,12 +1,4 @@
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
-        map = {}
-        for num in nums:
-            if num in map:
-                return True
-            else:
-                map[num] = 1
-
-
-        return False
-        
+        my_set = set(nums)
+        return len(my_set) < len(nums)
