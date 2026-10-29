@@ -6,11 +6,8 @@ class Solution:
             for c in str:
                 count[ord(c)-ord('a')] += 1
             final_map[tuple(count)].append(str)
-        out = []
-        for k,v in final_map.items(): 
-            out.append(v)
-
-        return out           
+        
+        return list(final_map.values())
             
 
 
