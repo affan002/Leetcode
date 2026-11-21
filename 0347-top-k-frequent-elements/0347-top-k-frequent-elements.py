@@ -1,16 +1,19 @@
 class Solution:
-    def topKFrequent(self, nums: List[int], k: int) -> List[int]:
+    def topKFrequent(self, nums: list[int], k: int) -> list[int]:
         count = defaultdict(int)
+        n = len(nums)
         for num in nums:
             count[num] += 1
-        freq_list = []
-        for num, cnt in count.items():
-            freq_list.append([cnt, num])
-        freq_list.sort()
+
+        bucket_arr = [[] for _ in range(n+1)]
+
+        for key, val in count.items():
+            bucket_arr[val].append(key)
 
         res = []
-        while len(res)<k:
-            print(res)
-            res.append(freq_list.pop()[1])
 
-        return res
+        for i in range(n, 0, -1):
+            for num in bucket_arr[i]:
+                res.append(num)
+                if len(res) == k:
+                    return res
